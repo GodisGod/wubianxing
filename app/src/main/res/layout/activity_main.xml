@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#300f">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.hd.polygonchartview.MainActivity">
+
+        <com.example.wubianxing.PolygonChartView
+            android:id="@+id/polygon_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:padding="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.example.wubianxing.EightPolygonChartView
+                android:id="@+id/eight_polygon_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:padding="40dp" />
+
+            <com.example.wubianxing.EightPolygonChartView
+                android:id="@+id/eight_polygon_view2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:padding="40dp" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/seekbar_jisha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_zhugong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_wuli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_mofa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_fangyu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_jinqian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_six_feel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+        <SeekBar
+            android:id="@+id/seekbar_imagenation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100" />
+
+    </LinearLayout>
+
+</ScrollView>
+
